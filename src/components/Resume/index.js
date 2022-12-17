@@ -5,8 +5,8 @@ function Resume() {
   return (
     <section style={{ height: '60vh', paddingLeft: '40px', paddingRight: '40px'}}>
       <div>
-      <h2 style={{fontSize: '30px', paddingTop: '40px', color: '#F5B041' }}>
-      <a href={resume} download style={{ color: '#F5B041' }}>
+      <h2 style={{fontSize: '30px', paddingTop: '40px', color: '#F5B041', paddingBottom: '40px' }}>
+      <a href={resume} download style={{ color: '#7eff10' }}>
       →→ Click here to download my resume! ←←
           </a>
         </h2>

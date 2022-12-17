@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 import './App.css'
 
@@ -25,8 +25,8 @@ function App() {
     case 'projects':
       view = <Projects />;
       break;
-    case 'contact':
-      view = <Contact />;
+    case 'resume':
+      view = <Resume />;
       break;
     default:
       view = <About />;

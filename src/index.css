@@ -3,6 +3,7 @@
   padding: 0;
   transition: .15s ease-in-out;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -11,12 +12,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1C2833
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  padding-top: 50px;
   background-color: #1C2833
 }
 
@@ -24,3 +24,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body, html {
+  height: 100%;
+}
+

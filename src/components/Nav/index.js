@@ -12,25 +12,26 @@ function Nav({ onViewChange }) {
   return (
     <nav style={{backgroundColor: '#1C2833' }}>
       <ul style={{ display: 'flex', flexWrap: 'nowrap', listStyle: 'none', justifyContent: 'center' }}>
-        <li style={{ marginRight: '20px' }}>
+        <li style={{ marginRight: '50px' }}>
           <a
             style={{ 
-                color: currentView === 'about' ? 'silver' : 'gold' ,
+                color: currentView === 'about' ? 'gold' : 'silver' ,
                 fontWeight: 'bold',
-                fontSize: 'large',
+                fontSize: '30px',
                 textDecoration: 'none',
             }}
-            href="#Aboutme"
+            href="#About"
             onClick={(event) => handleClick(event, 'about')}
           >
             About Me
           </a>
         </li>
-        <li style={{ marginRight: '20px' }}>
+        <li style={{ marginRight: '50px' }}>
           <a
-            style={{ color: currentView === 'projects' ? 'silver' : 'gold',
+            style={{ 
+            color: currentView === 'projects' ? 'gold' : 'silver' ,
             fontWeight: 'bold',
-            fontSize: 'large',
+            fontSize: '30px',
             textDecoration: 'none',
          }}
             href="#projects"
@@ -39,17 +40,18 @@ function Nav({ onViewChange }) {
             Projects
           </a>
         </li>
-        <li style={{ marginRight: '20px' }}>
+        <li style={{ marginRight: '50px' }}>
           <a
-            style={{ color: currentView === 'contact' ? 'silver' : 'gold',
+            style={{ 
+            color: currentView === 'resume' ? 'gold' : 'silver' ,
             fontWeight: 'bold',
-            fontSize: 'large',
+            fontSize: '30px',
             textDecoration: 'none',
          }}
-            href="#contact"
-            onClick={(event) => handleClick(event, 'contact')}
+            href="#resume"
+            onClick={(event) => handleClick(event, 'resume')}
           >
-            Contact Me
+            Resume
           </a>
         </li>
       </ul>

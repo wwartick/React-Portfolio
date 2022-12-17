@@ -1,7 +1,5 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  text-align: center;
 }
 
 .App-logo {
@@ -29,7 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-
 
 @keyframes App-logo-spin {
   from {

@@ -1,2 +1,2 @@
 test test
-https://wwartick.github.io/React-Portfolio/
+https://wwartick.github.io/react-portfolio/

@@ -1,0 +1,75 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+  
+.card {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+  
+img {
+    border: 1px solid silver;
+    border-radius: 115px;
+}
+
+img:hover {
+    border: 1px solid gold;
+    border-radius: 1px;
+}
+
+h2{
+    padding-top: 5px;
+    color: gold;
+}
+
+h4{
+    font-size: large;
+    padding-top: 15px;
+    color: gold;
+}
+
+a {
+    color: silver;
+    font-size: 20px;
+}
+a:hover {
+    font-size: 30px;
+}
+
+img[title] {
+    opacity: 0.5;
+    transition: all 250ms ease-in-out;
+  }
+  
+  img[title]:hover {
+    opacity: 1;
+  }
+  
+  img[title]:before {
+    content: attr(title);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: whitesmoke;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    opacity: 0;
+    transition: all 250ms ease-in-out;
+  }
+  
+  img[title]:hover:before {
+    opacity: 1;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }

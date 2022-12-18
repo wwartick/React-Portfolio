@@ -6,9 +6,9 @@ My professional portfolio built with react.  It is a single-page application bui
 
 ## Screenshots
 
-![screenshot 1 of project](assets/1.PNG)
+![screenshot 1 of project](assets/1.png)
 
-![screenshot 2 of project](assets/2.PNG)
+![screenshot 2 of project](assets/2.png)
 
-![screenshot 3 of project](assets/3.PNG)
+![screenshot 3 of project](assets/3.png)
 

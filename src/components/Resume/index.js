@@ -49,7 +49,7 @@ function Resume() {
             <ul style={{ listStyleType: 'none', color: 'silver', fontSize: '18px', letterSpacing: '2px', lineHeight: '2.5' }}> 
               <li>APIs</li>
               <li>Node JS</li>
-              <li>Experss.js</li>
+              <li>Express.js</li>
               <li>MySQL, Sequelize</li>
               <li>MongoDB, Mongoose</li>
               <li>REST</li>

@@ -16,19 +16,19 @@ const images = {
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      title: 'Music Market',
-      deployedURL: 'https://g02-music-market.herokuapp.com/',
-      githubURL: 'https://github.com/jacobmcanepa/music-market',
+      title: 'Employee Tracker',
+      deployedURL: '	https://github.com/wwartick/Employee-Tracker',
+      githubURL: '	https://github.com/wwartick/Employee-Tracker',
       img: '0',
-      technologies: 'MERN stack, Cloudinary React SDK, GraphQL, Apollo, Stripe, CSS',
+      technologies: 'HTML, JavaScript, CSS, Inquirer, Jest, MySQL',
       opacity: 0.5
     },
     {
-      title: 'Movie App',
-      deployedURL: 'https://jc-movie-app.herokuapp.com/',
-      githubURL: 'https://github.com/jacobmcanepa/movie-app',
+      title: 'E-Commerce Back End',
+      deployedURL: 'https://github.com/wwartick/e-commerce-backend',
+      githubURL: 'https://github.com/wwartick/e-commerce-backend',
       img: '1',
-      technologies: 'HTML(Handlebars), CSS, JS, Node.js, SQL, Sequelize, Express, OpenAI',
+      technologies: 'HTML, CSS, Javascript, Express.js, Node.js, MySQL',
       opacity: 0.5
     },
     {
